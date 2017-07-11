@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercice 10 : Un jeu en JavaScript</title>
+</head>
+<body>
+
+
+
+	<h1>Pierre - Feuille - Ciseau</h1>
+	<div id="pierre">
+		<a href="#" onclick="inpuReponse(reponsePlayer[0])">
+			<p>Pierre</p>
+		</a>
+	</div>
+	<div id="feuille">
+		<a href="#" onclick="inpuReponse(reponsePlayer[1])">
+			<p>Feuille</p>
+		</a>
+	</div>
+	<div id="ciseau">
+		<a href="#" onclick="inpuReponse(reponsePlayer[2])">
+			<p>Ciseau</p>
+		</a>
+	</div>
+
+	<div id="timer" style="display:none"></div>
+	<div id="resultat" style="display:none"></div>
+	<div id="scoring">
+		<p>
+		Player 1 : <span id="scorePl1">0</span> - 
+		Player 2 : <span id="scorePl2">0</span>
+		</p>
+	</div>
+
+	<button type="button" onclick="game()">Reload</button>
+
+
+<script src="script.js">
+
+</script>
+
+</body>
+</html>
